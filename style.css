@@ -868,3 +868,13 @@ a.contact-item:hover{ background:rgba(244,144,30,0.12); border-color:rgba(244,14
 }
 
 }
+@media (max-width: 768px) {
+    .scroll-cue{
+        left: 50% !important;
+        right: auto !important;
+        inset-inline-start: 50% !important;
+        transform: translateX(-50%) !important;
+        bottom: 20px !important;
+        margin: 0 !important;
+    }
+}
