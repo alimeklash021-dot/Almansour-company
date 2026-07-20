@@ -227,9 +227,9 @@ left:50%;
 bottom:20px;
 transform:translateX(-50%);
 z-index:999;
-  width:26px; height:42px; border:2px solid rgba(255,255,255,0.35); border-radius:20px; display:none;
+  width:26px; height:42px; border:2px solid rgba(255,255,255,0.35); border-radius:20px; display:none !important;
 }
-@media (min-height:760px){ .scroll-cue{ display:block; } }
+
 .scroll-cue span{ position:absolute; top:6px; inset-inline-start:50%; width:4px; height:8px; background:var(--orange); border-radius:2px; transform:translateX(-50%); animation:cue 1.8s ease-in-out infinite; }
 @keyframes cue{ 0%{ opacity:1; top:6px;} 70%{ opacity:0; top:22px;} 100%{opacity:0; top:22px;} }
 
