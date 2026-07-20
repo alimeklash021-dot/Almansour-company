@@ -222,7 +222,11 @@ p{ margin:0; }
 .stat-label{ font-size:.82rem; color:rgba(255,255,255,0.68); font-weight:600; line-height:1.5; }
 
 .scroll-cue{
-  position:absolute; bottom:1.2rem; inset-inline-start:50%; transform:translateX(-50%); z-index:2;
+  position:fixed;
+left:50%;
+bottom:20px;
+transform:translateX(-50%);
+z-index:999;
   width:26px; height:42px; border:2px solid rgba(255,255,255,0.35); border-radius:20px; display:none;
 }
 @media (min-height:760px){ .scroll-cue{ display:block; } }
